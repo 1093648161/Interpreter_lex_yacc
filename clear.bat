@@ -1,0 +1,1 @@
+del drawer.py yacc.tab* lex.yy.c interpreter.exe

@@ -1,0 +1,4 @@
+flex -i lex.l
+bison -d yacc.y
+g++ -o interpreter lex.yy.c yacc.tab.c semantics.c main.cpp
+interpreter program.txt
